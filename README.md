@@ -32,13 +32,13 @@
 - 或者直接执行如下命令
     ```bash
     sudo apt update
-    sudo apt install linux-image-6.15.0-1
+    sudo apt install linux-image-6.15.1
 
 ## 配置内核🌳
 -  使用`make menuconfig`对内核进行图形化配置
     ```bash
       sudo apt update
-      sudo apt install linux-image-6.15.0-1
+      sudo apt install linux-image-6.15.1
 
 ## 编译内核🌳
 -  使用`make `对内核进行编译,其中x可以根据自己的cpu设置
