@@ -1,2 +1,53 @@
-# linux_kernel_install
-Suitable for kernel compilation and installation in Ubuntu 24 version
+# Linux 内核安装教程
+
+## 目录
+1. [介绍](#介绍)
+2. [前提条件](#前提条件)
+3. [下载内核源码](#下载内核源码)
+4. [配置内核](#配置内核)
+5. [编译内核](#编译内核)
+6. [安装内核](#安装内核)
+7. [配置引导加载程序](#配置引导加载程序)
+8. [验证安装](#验证安装)
+9. [常见问题](#常见问题)
+10. [参考资料](#参考资料)
+
+## 介绍
+该仓库旨在编译安装相关linux内核。
+
+## 前提条件
+在开始之前，请确保你具备以下条件：
+- 一台已经安装了 Linux 操作系统的虚拟机（本教程以 Ubuntu24版本 为例）。
+- 具备 sudo 权限的用户帐户。
+- 足够的硬盘空间用于存放编译后的内核文件。
+- 安装了一些必要的依赖工具（如 `gcc`、`make`、`libncurses-dev` 等）。
+- 例如：在 Ubuntu 上，可以使用以下命令安装所需的开发工具和库：
+  ```bash
+  sudo apt update
+  sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev bc
+
+## 下载内核源码
+- 下载内核源码前可以先在虚拟机上创建一个文件夹用来保存下载的安装包 方便以后查询。
+    ```bash
+    makedir /你的文件名
+## 配置内核
+
+## 编译内核
+
+## 安装内核 
+
+## 配置引导加载程序
+
+## 验证安装
+
+## 常见问题
+
+## 参考资料
+
+
+
+
+
+
+
+
